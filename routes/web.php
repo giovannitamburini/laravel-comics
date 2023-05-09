@@ -15,20 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $links = [
-        'characters',
-        'comics',
-        'movies',
-        'tv',
-        'games',
-        'collectibles',
-        'videos',
-        'fans',
-        'news',
-        'shop'
-    ];
-
     return view('home');
+});
+
+Route::get('/bonus', function () {
+
+    return view('bonus');
 });
 
 Route::get('/', function () {

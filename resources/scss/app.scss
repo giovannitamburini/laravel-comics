@@ -273,3 +273,19 @@ footer {
     }
 
 }
+
+
+
+// stilizzazione main 2
+#main-two {
+    background-color: white;
+
+    #container-main-two {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 20px;
+        padding: 20px 0;
+        color: black;
+    }
+}
