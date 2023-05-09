@@ -14,13 +14,16 @@
             
             <div class="col-2 single-card">
 
-                <div class="container-img">
-                    <img src="{{$item['thumb']}}" alt="comic">
-                </div>
-                
-                {{$item['title']}}
+                <a href="/description_comic">
+
+                    <div class="container-img">
+                        <img src="{{$item['thumb']}}" alt="comic">
+                    </div>
                     
-            </div>
+                    {{$item['title']}}
+                </a>
+                    
+                </div>
                 
             @endforeach
         </div>

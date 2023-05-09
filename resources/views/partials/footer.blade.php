@@ -58,8 +58,6 @@
                 <a href="">Cookies Settings</a>
             </div>
         </div>
-
-
     </div>
 
 
