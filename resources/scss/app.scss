@@ -165,3 +165,111 @@ main {
 
     }
 }
+
+footer {
+
+
+    #footer-background {
+        height: 320px;
+        background-image: url('../img/footer-bg.jpg');
+        background-size: cover;
+        background-position: center;
+
+        #footer-container {
+            position: relative;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+
+            #footer-links {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                padding-top: 20px;
+
+                .footer-link {
+                    padding: 5px 10px;
+
+                    .title-list {
+                        text-transform: uppercase;
+                    }
+
+                    ul {
+                        padding: 1em 0;
+                        color: #959595;
+                        font-size: 0.8em;
+
+                        li {
+                            list-style-type: none;
+                        }
+                    }
+                }
+            }
+
+            #footer-logo {
+                height: 100%;
+                width: 350px;
+                background-image: url('../img/dc-logo-bg.png');
+                background-size: 350px;
+                background-position: center;
+            }
+
+            #cookies {
+                position: absolute;
+                bottom: 20px;
+
+                a {
+                    text-decoration: none;
+                    color: #0282f9;
+                }
+            }
+        }
+    }
+
+    #signup-background {
+        height: 80px;
+        background-color: #303030;
+
+        #signup-container {
+            width: 1000px;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                padding: 9px;
+                color: white;
+                background-color: transparent;
+                border: 2px solid #0282f9;
+                cursor: pointer;
+            }
+
+            #social-container {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+
+                #follow {
+                    color: #0282f9;
+                    font-size: 1.1em;
+                    font-weight: 700;
+                }
+
+                .social {
+                    img {
+                        height: 25px;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+}
